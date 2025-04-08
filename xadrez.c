@@ -7,6 +7,7 @@ int main(){
     //declarando as variaveis
     int torre = 1;
     int bispo = 1;
+    int cavalob = 1, cavaloe = 1;
 
 
 
@@ -38,5 +39,18 @@ int main(){
     printf("Esquerda\n");
     }
 
-    return 0;
-}
+    printf("\nMovimentos do Cavalo\n");
+
+    for(cavaloe; cavaloe <= 1; cavaloe++){
+
+        while(cavalob <= 2){
+
+            printf("baixo\n");
+
+        
+            cavalob++;
+        }
+
+        printf("esquerda\n");
+    }
+}  
